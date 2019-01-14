@@ -1,2 +1,3 @@
 # Codewars
-This repository contains my solutions for my completed Codewars challenges
+My solutions (in JavaScript) for my completed Codewars Katas.
+
