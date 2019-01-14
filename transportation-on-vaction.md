@@ -11,7 +11,9 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 Write a code that gives out the total amount for different days(d)
 
 ## Solution
-[Run this on repl.it!](https://repl.it/@cnemeth/Transportation-on-Vacation)
+[Run this on repl.it!](https://repl.it/@cnemeth/transportation-on-vacation)
+*You may need to refresh the repl page before running the code.*
+
 ```
 function rentalCarCost(d){
   return d * 40 - (d >= 7 ? 50 : (d >= 3 ? 20 : 0));
