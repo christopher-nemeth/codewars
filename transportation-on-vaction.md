@@ -12,7 +12,6 @@ Write a code that gives out the total amount for different days(d)
 
 ## Solution
 [Run this on repl.it!](https://repl.it/@cnemeth/transportation-on-vacation)
-*You may need to refresh the repl page before running the code.*
 
 ```
 function rentalCarCost(d){
