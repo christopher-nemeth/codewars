@@ -18,6 +18,8 @@ time = 11.8--> litres = 5
 
 ## Solution
 [Run this on repl.it!](https://repl.it/@cnemeth/keep-hydrated)
+
+**The Code:**
 ```
 function litres(time) {
   return Math.floor(time * 0.5);

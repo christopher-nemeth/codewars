@@ -13,6 +13,7 @@ Write a code that gives out the total amount for different days(d)
 ## Solution
 [Run this on repl.it!](https://repl.it/@cnemeth/transportation-on-vacation)
 
+**The Code:**
 ```
 function rentalCarCost(d){
   return d * 40 - (d >= 7 ? 50 : (d >= 3 ? 20 : 0));
