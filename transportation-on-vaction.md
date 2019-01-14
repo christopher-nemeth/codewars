@@ -1,4 +1,4 @@
-# Transportation on Vacation
+# Transportation on vacation
 [Link to Kata](https://www.codewars.com/kata/568d0dd208ee69389d000016)
 
 ## Instructions
