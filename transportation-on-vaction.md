@@ -24,5 +24,5 @@ function rentalCarCost(d){
 This challenge allowed me to practice my ES6 ternary statements and order of operations. The trickiest part was having the running correct order of operations. In this case we want to multiply the rate and the amount of days and then subtract the deal that applies to the amount of days the car was driven. By running the smallest deal first in the innermost parentheses `(d >= 3 ? 20 : 0)`, we can check if the car was driven in 3 or less days. If the amount of days is equal to or greater than 7, the innermost statement will be false, thus giving you the result with the best deal at $50 off per day.
 
 ## Resources
-- [JavaScript Ternary](https://scotch.io/tutorials/understand-the-javascript-ternary-operator-like-abc)
+- [Understand The JavaScript Ternary Operator like the ABCs](https://scotch.io/tutorials/understand-the-javascript-ternary-operator-like-abc)
 - [PEMDAS](https://www.chilimath.com/lessons/introductory-algebra/order-of-operations/)
