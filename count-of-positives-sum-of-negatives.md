@@ -25,8 +25,9 @@ function countPositivesSumNegatives(input) {
 [Run it on repl.it!](https://repl.it/@cnemeth/count-of-positives-sum-of-negatives)
 
 ## Summary
-For this challenge I needed to set two variables, positiveNums and negativeNums, to 0 so that we can check the numbers in the array and store them. The challenge asks to return an empty array if the input is null or empty, so in the function, I decided to start my if statement that checks that first.
-```if (input === null || input.length === 0) {
+For this challenge I needed to set two variables, `positiveNums` and `negativeNums`, to 0. The challenge asks to return an empty array if the input is null or empty, so in the function, I decided to start my if statement that checks that first.
+```
+if (input === null || input.length === 0) {
       return [];
     }
 ```
@@ -39,6 +40,6 @@ else {
 As I iterate over each number, if the number is greater than 0, I can use the increment operator on the positive numbers, and if the number is negative, I can use the plus/equals operator to add all of the negative numbers. Finally, I need to return both positiveNums, and negativeNums into an array as my desired output.
 
 ## Resources
-- [MDN: if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- [MDN web docs: if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - [ES6 forEach() loops with vanilla JavaScript](https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/)
 - [Operators](https://javascript.info/operators)
